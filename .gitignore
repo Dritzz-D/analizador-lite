@@ -1,0 +1,53 @@
+# 🔁 Python
+__pycache__/
+*.py[cod]
+*.so
+
+# 🐍 Entorno virtual
+venv/
+.env/
+
+# 📦 Paquetes
+*.egg-info/
+dist/
+build/
+
+# 🧪 Tests temporales
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+
+# 📂 Datos
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.db
+*.sqlite3
+*.parquet
+
+# 📑 Documentos de salida
+*.pdf
+*.docx
+*.txt
+
+# 📁 Directorios de datos
+data/entrada/
+data/salida/
+data/backups/
+
+# 📝 Logs y salidas
+*.log
+nohup.out
+streamlit.log
+
+# 💻 IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 🖼️ Archivos de sistema
+.DS_Store
+Thumbs.db
