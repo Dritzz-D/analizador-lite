@@ -10,12 +10,19 @@ from orquestador import ejecutar_pipeline
 from core.sistema_logging import log_evento, leer_logs
 from agentes.generador_pdf import generar_pdf
 from core.persistencia import insertar_archivo
+from dotenv import load_dotenv
+load_dotenv()
+
 
 st.set_page_config(page_title="📊 Analizador Lite", layout="wide")
 st.title("📊 Analizador Descriptivo de Datos - Versión Lite")
+if st.button("🔒 Cerrar sesión"):
+    st.session_state.authenticated = False
+    st.experimental_rerun()
+
 
 # --- Autenticación por PIN ---
-PIN = "Bt/+79?@_ç_1"
+PIN = os.getenv("APP_PIN")
 if "authenticated" not in st.session_state:
     st.session_state.authenticated = False
 
