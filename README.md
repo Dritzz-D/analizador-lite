@@ -62,11 +62,6 @@ Dependencias
 - fpdf
 - sqlite3 (módulo estándar de Python)
 
-Instalación
-```bash
-pip install -r requirements.txt
-
-
 Datos y Archivos
 •	Entrada activa: data/entrada/activa.csv
 •	Histórico de archivos: data/entrada/historico/
@@ -107,5 +102,13 @@ Posibles tareas futuras y/o módulos pendientes
 •	Soporte para múltiples archivos y análisis comparativo
 •	Visualización de resultados directamente en la interfaz Streamlit
 •	Desarrollo de versión multiusuario o basada en la nube (SaaS)
+
+
+Instalación
+```bash
+pip install -r requirements.txt
+
+
+
 
 
