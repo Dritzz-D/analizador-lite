@@ -66,6 +66,7 @@ Instalación
 ```bash
 pip install -r requirements.txt
 
+
 Datos y Archivos
 •	Entrada activa: data/entrada/activa.csv
 •	Histórico de archivos: data/entrada/historico/
